@@ -40,8 +40,9 @@ Below are the detailed results of the models for detail visualization of each mo
 <p align="center">
   <img src="./Latex/visualize/_Results/BTC/RMSE.png" width="30% " height="auto">
   <img src="./Latex/visualize/_Results/BTC/MAPE.png" width="30%" height="auto">
-  <img src="./Latex/visualize/_Results/BTC/SMAPE.png" width="30%" height="auto">
 </p>
+
+![BTC Dataset](./Latex/visualize/_Results/BTC/SMAPE.png)
 
 | Model | Ratio | RMSE | MAPE | SMAPE |
 |----------------------|-----------|----------|----------|-----------|
@@ -115,7 +116,7 @@ Below are the detailed results of the models for detail visualization of each mo
   <img src="./Latex/visualize/_Results/DOGE/MAPE.png" width="30%" height="auto">
   <img src="./Latex/visualize/_Results/DOGE/SMAPE.png" width="30%" height="auto">
 </p>
-    
+
 | Model | Ratio | RMSE | MAPE | SMAPE |
 |----------------------|-----------|----------|----------|-----------|
 | Linear Regression | 7:3 | 0.01 | 4.62 | 4.69 |

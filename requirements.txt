@@ -1,0 +1,11 @@
+statsmodels
+pmdarima
+matplotlib
+numpy
+pandas
+seaborn
+tqdm
+tensorflow
+scikit-learn
+lightgbm
+xgboost

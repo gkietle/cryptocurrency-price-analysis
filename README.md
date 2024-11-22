@@ -37,12 +37,13 @@ Below are the detailed results of the models for detail visualization of each mo
 - **BTC Dataset:**
 > Based on the result table below, we can see that the GRU model is the best-performing model among the 8 implemented models in predicting BTC stock prices with a 7:3 ratio, as it has the lowest RMSE, MAPE, and SMAPE values.
 
+![BTC Dataset](./Latex/visualize/_Results/BTC/RMSE.png)
+
 <p align="center">
-  <img src="./Latex/visualize/_Results/BTC/RMSE.png" width="30% " height="auto">
-  <img src="./Latex/visualize/_Results/BTC/MAPE.png" width="30%" height="auto">
+  <img src="./Latex/visualize/_Results/BTC/SMAPE.png" width="50% " height="auto">
+  <img src="./Latex/visualize/_Results/BTC/MAPE.png" width="50%" height="auto">
 </p>
 
-![BTC Dataset](./Latex/visualize/_Results/BTC/SMAPE.png)
 
 | Model | Ratio | RMSE | MAPE | SMAPE |
 |----------------------|-----------|----------|----------|-----------|
@@ -74,11 +75,13 @@ Below are the detailed results of the models for detail visualization of each mo
 - **ETH Dataset:**
 > Based on the result table below, we can see that the LSTM model is the best-performing model among the 8 implemented models in predicting ETH stock prices with a 8:2 ratio, as it has the lowest RMSE, MAPE, and SMAPE values.
 
+![BTC Dataset](./Latex/visualize/_Results/ETH/RMSE.png)
+
 <p align="center">
-  <img src="./Latex/visualize/_Results/ETH/RMSE.png" width="30% " height="auto">
-  <img src="./Latex/visualize/_Results/ETH/MAPE.png" width="30%" height="auto">
-  <img src="./Latex/visualize/_Results/ETH/SMAPE.png" width="30%" height="auto">
+  <img src="./Latex/visualize/_Results/ETH/SMAPE.png" width="50% " height="auto">
+  <img src="./Latex/visualize/_Results/ETH/MAPE.png" width="50%" height="auto">
 </p>
+
 
 
 | Model | Ratio | RMSE | MAPE | SMAPE |
@@ -111,11 +114,13 @@ Below are the detailed results of the models for detail visualization of each mo
 - **DOGE Dataset:**
 > Based on the result table above, we can see that the GRU model is the best-performing model among the 8 implemented models in predicting DOGE stock prices with a 9:1 ratio, as it has the lowest RMSE, MAPE, and SMAPE values.
 
+![BTC Dataset](./Latex/visualize/_Results/DOGE/RMSE.png)
+
 <p align="center">
-  <img src="./Latex/visualize/_Results/DOGE/RMSE.png" width="30% " height="auto">
-  <img src="./Latex/visualize/_Results/DOGE/MAPE.png" width="30%" height="auto">
-  <img src="./Latex/visualize/_Results/DOGE/SMAPE.png" width="30%" height="auto">
+  <img src="./Latex/visualize/_Results/DOGE/SMAPE.png" width="50% " height="auto">
+  <img src="./Latex/visualize/_Results/DOGE/MAPE.png" width="50%" height="auto">
 </p>
+
 
 | Model | Ratio | RMSE | MAPE | SMAPE |
 |----------------------|-----------|----------|----------|-----------|

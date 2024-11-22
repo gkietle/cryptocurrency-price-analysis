@@ -1,5 +1,18 @@
 # Comparative Analysis of Statistical and Machine Learning Models for Enhanced Cryptocurrency Price Prediction with Technical Indicator Integration
 
+## 📑 Table of Contents
+1. [Introduction](#introduction)
+2. [Dataset](#dataset)
+3. [Feature Engineering](#feature-engineering)
+4. [Models](#models)
+5. [Evaluation](#evaluation)
+6. [Executive Summary](#executive-summary)
+7. [Project Structure](#project-structure)
+8. [Installation](#installation)
+9. [Usage](#usage)
+10. [Contributing](#contributing)
+11. [Acknowledgments](#acknowledgments)
+
 ## Introduction
 This repository contains the code and resources for a class project on forecasting cryptocurrency prices using statistical models and machine learning algorithms. The project explores the performance of Linear Regression, ARIMAX, Recurrent Neural Networks (RNN), Gated Recurrent Units (GRU), Long Short-Term Memory (LSTM) networks, Vector Autoregression (VAR), XGBoost, and LightGBM in forecasting the prices of Bitcoin, Ethereum, and Dogecoin.
 
@@ -24,7 +37,7 @@ The following models are implemented and evaluated in this project:
 ## Evaluation
 The models are evaluated using various performance metrics, such as Root Mean Squared Error (RMSE), Mean Absolute Percent Error (MAPE), and Symmetric Mean Absolute Percentage Error (SMAPE). Three different train-test split ratios are used for each model: 70:30, 80:20, and 90:10. The results are compared to assess the strengths and weaknesses of each model in accurately predicting cryptocurrency prices.
 
-## Executive Summary ##
+## Executive Summary
 This project explores cryptocurrency price prediction using statistical and machine learning models, focusing on Bitcoin (BTC), Ethereum (ETH), and Dogecoin (DOGE). A dataset from 2018–2024 was analyzed, incorporating technical indicators like MACD, Moving Averages, and Bollinger Bands.
 
 Eight models—Linear Regression, ARIMAX, VAR, RNN, GRU, LSTM, XGBoost, and LightGBM—were evaluated. GRU achieved the lowest RMSE (1,143 for BTC, 0.0067 for DOGE) and MAPE (1.96% for BTC, 5.50% for DOGE) in most scenarios. LSTM excelled in ETH prediction, with an RMSE of 79.93 and MAPE of 2.56%.
